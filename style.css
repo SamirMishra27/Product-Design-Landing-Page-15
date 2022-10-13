@@ -1,0 +1,588 @@
+body {
+    width: 100%;
+    height: 360vh;
+
+    background: #111111;
+    font-family: Poppins;
+
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-here {
+    width: 7%;
+    height: auto;
+    background-color: #ff3343;
+    border-radius: 10px;
+    border: 5px solid #ff3343;
+}
+
+.listitems {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.listitem {
+    list-style-type: none;
+}
+
+.intro-section {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-section img {
+    height: 100%;
+    width: auto;
+}
+
+.introduction-panel {
+    width: 40%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.introduction-self {
+    color: #ff3343;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.introduction-professions {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.introduction-about-me-button {
+    background: #c91b28;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.features-section {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #181818 50%, 50%, #111111);
+}
+
+.feature-cards-upper {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feature-card {
+    width: 26%;
+    height: 80%;
+    background: #1e1e1e;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.feature-card img {
+    width: 20%;
+    height: auto;
+    background: #c91b28;
+    border: 2.5px solid #c91b28;
+    border-radius: 10px;
+}
+
+.feature-card .title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.feature-card .desc {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.feature-cards-lower {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headline-card {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-card .statistic-number {
+    font-size: 80px;
+    font-weight: 800;
+
+    color: #ef4040;
+    height: 27%;
+}
+
+.headline-card .statistic-describe {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.other-cards {
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.statistic-card {
+    width: 45%;
+    height: 45%;
+    background: #1e1e1e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statistic-card .statistic-number {
+    font-size: 35px;
+    font-weight: 800;
+
+    color: #ef4040;
+    height: 27%;
+}
+
+.statistic-card .statistic-describe {
+    font-size: 16px;
+    font-weight: 300;
+    color: #d6d6d6;
+}
+
+.featured-headline {
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.featured-headline .info {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-headline .info .head {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.featured-headline .info .desc {
+    font-size: 15px;
+    color: #d6d6d6;
+}
+
+.featured-projects-section {
+    width: 80%;
+    height: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.featured-project-card {
+    width: 45%;
+    height: 45%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    background: #1e1e1e;
+}
+
+.featured-project-card img {
+    height: 70%;
+    width: auto;
+    align-self: center;
+}
+
+.featured-project-card .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 7%;
+}
+
+.featured-project-card .know-more-button {
+    margin-left: 7%;
+    padding: 0%;
+}
+
+.ending-section {
+    width: 80%;
+    height: 280px;
+    margin: auto;
+    background-color: #1e1e1e;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ending-notes {
+    width: 65%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.ending-notes .head {
+    font-size: 40px;
+    font-weight: 700;
+    width: 80%;
+}
+
+.ending-notes .desc {
+    /*  */
+    width: 80%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #d6d6d6;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+}
+
+.footer-upper {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-upper ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-upper ul li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.footer-lower {
+    height: 50%;
+    width: 100%;
+    background: #1e1e1e;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-links {
+    width: 20%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-links img {
+    width: 10%;
+    height: auto;
+}
+
+.filler {
+    width: 8%;
+    height: 20%;
+}
+
+.know-more-button {
+    color: #ff3343;
+    background: none;
+    border: none;
+    font-weight: 700;
+}
+
+.common-button {
+    background: #ef4040;
+    color: white;
+
+    width: 130px;
+    height: 50px;
+}
+
+@media (max-width: 440px) {
+    * {margin: 0; padding: 0px;}
+
+    body {
+        width: 100%;
+        height: 700vh;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .logo-here {
+        width: 30%;
+        height: auto;
+    }
+    
+    .listitems {
+        width: 100%;
+        height: 60%;
+
+        padding: 0px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .listitem {
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .intro-section {
+        height: 140vh;
+        flex-direction: column-reverse;
+    }
+
+    .intro-section img {
+        height: auto;
+        width: 100%;
+    }
+
+    .introduction-panel {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .introduction-self, .introduction-professions, .introduction-desc, .introduction-about-me-button {
+        width: 90%;
+        text-align: center;
+        height: auto;
+    }
+
+    .introduction-self {
+        font-size: 20px;
+    }
+
+    .introduction-about-me-button {
+        width: 70%;
+        height: 10%;
+
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .features-section {
+        height: 220vh;
+    }
+
+    .feature-cards-upper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .feature-card {
+        width: 70%;
+        height: 30%;
+        box-sizing: border-box;
+    }
+
+    .feature-cards-lower {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .headline-card {
+        height: 30%;
+        width: 80%;
+    }
+
+    .headline-card .statistic-number, .headline-card .statistic-describe {
+        margin: 10px auto;
+    }
+
+    .other-cards {
+        width: 100%;
+        height: 70%;
+    }
+
+    .statistic-card {
+        width: 80%;
+        height: 23%;
+    }
+
+    .featured-headline {
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .featured-headline .info {
+        height: 70%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .featured-headline .info .head, .featured-headline .info .desc {
+        width: 90%;
+        text-align: center;
+    }
+
+    .featured-projects-section {
+        width: 100%; 
+        height: 180vh;
+    }
+    
+    .featured-project-card {
+        width: 95%;
+        height: 21%;
+    }
+
+    .featured-project-card img {
+        width: 96%;
+        height: auto;
+    }
+
+    .featured-project-card .title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .ending-section {
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ending-notes {
+        width: 90%;
+        align-items: center;
+    }
+    .ending-notes .head, .ending-notes .desc {
+        width: 90%;
+        text-align: center;
+    }
+
+    .ending-notes .desc {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .footer-upper {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .footer-upper ul {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .footer-upper ul li {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .footer-lower {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-lower .logo-here {
+        height: 20%;
+        width: auto;
+    }
+
+    .social-links {
+        width: 100%;
+        height: 40%;
+    }
+
+    .social-links img {
+        width: 14%;
+        height: auto;
+    }
+
+    .filler {
+        width: 100%;
+        height: 10%;
+    }
+}
